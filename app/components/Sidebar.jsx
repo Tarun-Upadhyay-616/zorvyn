@@ -15,7 +15,7 @@ const NavLinks =(name , logo ,active)=>{
 }
 const Sidebar = () => {
   return (
-    <div className='bg-slate-900 text-white w-[22vw] h-screen'>
+    <div className='bg-slate-900 text-white w-[22vw]'>
       <ZorvynLogo className="flex justify-center w-full"/>
       <div className='flex justify-center flex-col items-center mt-5'>
         {NavLinks("Dashboard",<LayoutDashboard/>,true)}
